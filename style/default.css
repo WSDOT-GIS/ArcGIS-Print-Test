@@ -1,5 +1,13 @@
-﻿html,body,#map,.map.container{
+﻿html,body,.map,.map.container{
     padding:0;
     margin:0;
     height:100%;
+    overflow: hidden;
+}
+
+#printButton
+{
+    position: absolute;
+    top: 1em;
+    right: 1em;
 }
